@@ -13,7 +13,7 @@ public class Main {
         student1.setStudentID(210101091);
         student1.answers = Arrays.asList("A", "B", "C", "D");
         gradingSystem.getStudentList().add(student1);
-
+        
         Student student2 = new Student();
         student2.setName("İlhan Mohamed Ibrahim");
         student2.setStudentID(200101132);
