@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class TestGradingSystem {
+    public class TestGradingSystem {
     private List<Student> studentList = new ArrayList<>();
     private Map<Integer, String> correctAnswers = new HashMap<>();
     private LinkedList<Student> gradingQueue = new LinkedList<>();
@@ -10,8 +10,8 @@ public class TestGradingSystem {
     private Map<Integer, Double> gradedResults = new HashMap<>();
     private List<Double> reportData = new ArrayList<>();
     private TreeMap<Integer, Double> gradeBook = new TreeMap<>();
-
     private Map<Integer, String> studenIdNameMap = new HashMap<>();
+     
 
     public TestGradingSystem() {
     }

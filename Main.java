@@ -48,7 +48,7 @@ public class Main {
         student7.setName("Random Can");
         student7.setStudentID(4);
         student7.answers = Arrays.asList("C", "C", "D", "A");
-        gradingSystem.getStudentList().add(student6);
+        gradingSystem.getStudentList().add(student7);
 
         // Adding correct answers to the hash map
         gradingSystem.getCorrectAnswers().put(0, "A");
@@ -73,7 +73,7 @@ public class Main {
             // Perform grading logic, update intermediate results using stacks, etc.
             gradingSystem.getOverallGradingQueue().add(currentStudent);
         }
-
+        
         // Storing graded results in hash table
         for (Student student : gradingSystem.getOverallGradingQueue()) {
             double grade = gradingSystem.calculateGrade(student);
